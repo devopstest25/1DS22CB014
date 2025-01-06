@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def main():
-    return {"message": "DevOps Lab!"}
+    return {"message": "DevOps Lab 2025!"}
 
 if __name__ == '__main__':
     import uvicorn
